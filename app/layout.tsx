@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ads Agent",
+  title: "Pixeloop",
   description: "AI audits for Google Ads and Meta Ads",
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <nav className="mx-auto flex w-full max-w-4xl items-center gap-6 px-4 pt-6 text-sm">
-          <Link href="/" className="font-semibold">Ads Agent</Link>
+          <Link href="/" className="font-semibold">Pixeloop</Link>
           <Link href="/" className="text-neutral-500 hover:text-foreground">Dashboard</Link>
           <Link href="/connect" className="text-neutral-500 hover:text-foreground">Connections</Link>
           <Link href="/settings" className="text-neutral-500 hover:text-foreground">Thresholds</Link>

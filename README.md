@@ -1,4 +1,4 @@
-# Ads Agent
+# Pixeloop
 
 Wasted-spend audits for **Google Ads** and **Meta Ads** with an approve/deny queue,
 a **Shopify revenue overlay**, per-tenant thresholds, a weekly scheduled audit, and an MCP server. Single-tenant trial build (no user auth
@@ -74,7 +74,7 @@ Tools: `list_connections`, `run_audit`, `get_audits`, `list_recommendations`,
 
 - **Remote** (Claude custom connector): set `MCP_API_KEY`, then URL `https://<host>/api/mcp`
   with header `Authorization: Bearer <MCP_API_KEY>`.
-- **Local** (Claude Desktop / Claude Code): `claude mcp add ads-agent -- npx tsx mcp/stdio.ts`
+- **Local** (Claude Desktop / Claude Code): `claude mcp add pixeloop -- npx tsx mcp/stdio.ts`
   run from this folder (same DB and `ENCRYPTION_KEY` as the app).
 
 ## Layout

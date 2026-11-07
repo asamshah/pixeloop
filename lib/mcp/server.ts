@@ -33,7 +33,7 @@ const fail = (e: unknown) => ({
 
 // Same tools over stdio (local) and HTTP (/api/mcp, remote connector).
 export function createMcpServer() {
-  const server = new McpServer({ name: "ads-agent", version: "0.1.0" });
+  const server = new McpServer({ name: "pixeloop", version: "0.1.0" });
 
   server.registerTool(
     "list_connections",

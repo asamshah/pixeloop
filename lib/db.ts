@@ -8,7 +8,7 @@ let ready: Promise<void> | null = null;
 
 function getClient(): Client {
   if (!client) {
-    const url = process.env.DATABASE_URL ?? "file:./data/ads-agent.db";
+    const url = process.env.DATABASE_URL ?? "file:./data/pixeloop.db";
     if (url.startsWith("file:")) mkdirSync("data", { recursive: true });
     client = createClient({ url, authToken: process.env.DATABASE_AUTH_TOKEN });
   }
